@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  @apply bg-dark text-light
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Filter {
+  @apply z-50 text-sm flex flex-col font-bold -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-[90vw] md:w-[80vw] lg:w-[70vw] fixed backdrop-blur-md bg-light/60 rounded-lg p-3 sm:p-8 md:p-10 min-h-[60vh] text-dark
+}
+
+.FilterButtons {
+  @apply grid grid-cols-2 gap-2 text-[11px] sm:text-base
+}
+
+.CategoryData{
+  box-shadow: 8px 8px 0 0px lightcyan;
+}
