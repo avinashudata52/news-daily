@@ -4,6 +4,7 @@
 
 Create a simple responsive blog page using Next.js and Tailwind CSS. The blog page should display a list of blog posts with titles, authors, image, publication dates, and content. A simple responsive blog page using Next.js and Tailwind CSS. Integrate a third-party API (e.g., News API, JSONPlaceholder or any other suitable API) to fetch and display blog posts dynamically.
 
+
 #### Requirements:
 
 1. Layout:
